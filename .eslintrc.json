@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "hardcore",
+    "hardcore/ts",
+    "plugin:prettier/recommended",
+    "prettier"
+  ]
+}

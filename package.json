@@ -1,0 +1,35 @@
+{
+  "name": "graphiql-ui",
+  "version": "0.1.0",
+  "description": "A UI that runs GraphiQL to talk to the GitHub GraphQL API",
+  "scripts": {
+    "compile": "tsc --build --verbose",
+    "dev": "DEBUG=1 ts-node-dev --debug src/index.ts",
+    "lint": "eslint .",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "Jonathan Mohrbacher <johnnymo87@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/load": "^8.0.0",
+    "@graphql-tools/url-loader": "^8.0.0",
+    "@types/wait-on": "^5.3.1",
+    "graphql": "^15.8.0",
+    "graphql-yoga": "^3.9.1",
+    "wait-on": "^7.0.1",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "eslint": "^8.42.0",
+    "eslint-config-hardcore": "^36.3.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  }
+}

@@ -1,0 +1,3 @@
+GITHUB_API_TOKEN=your_personal_access_token
+GITHUB_API_URL=https://api.github.com/graphql
+USER_AGENT=your_github_username
